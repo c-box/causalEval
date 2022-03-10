@@ -1,5 +1,5 @@
 # causalEval
-This is the source code for paper: The Invisible Hand: Understanding the Risks of Prompt-based Probing from a Causal View (ACL 2022, long paper, main conference)
+This is the source code for paper: Can Prompt Probe Pretrained Language Models? Understanding the Invisible Risks from a Causal View (ACL 2022, long paper, main conference)
 
 ## Reference
 If this repository helps you, please kindly cite the following bibtext:
@@ -9,46 +9,51 @@ to be added
 
 ## Usage
 To reproduce our results:
-### Prepare the docker environment
+
+### Prepare the environment
 ```bash
-to be added
+conda create --name causaleval python=3.8
+pip install -r requirements.txt
 ```
+
 ### Download the data
 ```bash
 to be added
 ```
 ### Run the experiments
 
-#### 3.1 Prompt Preference Bias
+#### 3.1 Prompt Preference Bias (Table 1, Figure 3 and 4)
 
 ```bash
 bash run_prompt_variance.sh
 ```
 
-Table 1的LAMA P@1结果保存在output/prompt_preference/LAMA_P文件夹下，对应到每个模型。
-Table 1的其他结果存在output/prompt_preference/prompt2precion.txt文件中的最后几个大表里头，可以直接看平均结果
+The results are saved in the folder "output/prompt_preference".
 
-Figure 3和Figure 4的结果在output/prompt_preference/prompt2precion.txt中每个关系的子表里面，分别为关系P1412，P30，P140，P127
-
-#### 3.2 Instance Verbalization Bias
+#### 3.2 Instance Verbalization Bias (Figure 5)
 
 ```bash
 bash run_instance_verb.sh
 ```
 
-Figure 5的结果在output/instance_verb中，对应到每个模型。
+The results are saved in the folder "output/instance_verb".
 
-#### 3.3 Sample Disparity Bias
+#### 3.3 Sample Disparity Bias (Table 3)
 
 ```bash
 bash run_sample_disparity.sh
 ```
-Table 3的结果在output/sample_disparity中，对应到每个模型和$\gamma$的参数。
+The script will first further pretrain four PLMs on datasets with various $\gamma$, and save the models in the folder "checkpoints".
+
+And then evaluate all the checkpoints on test dataset, the results are saved in the folder "output/sample_disparity".
+
+**Further Pretraining Details**
+
+Training was performed on $8$ 40G-A100 GPUs for $3$ epochs, with maximum sequence length $512$. The batch sizes for BERT-base, BERT-large, GPT2-base, GPT2-medium are $256, 96, 128, 64$ respectively. All the models is optimized with Adam using the following parameters: $\beta_1=0.9, \beta_2=0.999, \epsilon=1e-8$ and the learning  rate is $5e-5$ with warmup ratio=$0.06$. 
 
 #### 3.4 Bias Elimination via Causal Intervention
 
 ```bash
 bash run_causal_intervention.sh
 ```
-
-Table 4的结果在output/causal_intervention/final_rank_consis_1000_20_42中
+The results are saved in the folder "output/causal_intervention".
