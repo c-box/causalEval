@@ -486,7 +486,7 @@ def list_topk(lst, topk):
 
 
 def read_prompts(relation_id, ori_prompt=None):
-    file_path = "fact_data/relations/multi_prompts/{}.jsonl".format(relation_id)
+    file_path = "fact_data/relations/multiple_prompts/{}.jsonl".format(relation_id)
     if ori_prompt:
         relation_prompts = [ori_prompt]
     else:
