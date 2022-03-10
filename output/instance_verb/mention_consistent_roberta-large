@@ -1,0 +1,43 @@
++-----------------------------------------------------------------------------------+
+|                                   roberta-large                                   |
++---------------+--------------------------------------------------+----------------+
+|       id      |                     relation                     | mention_consis |
++---------------+--------------------------------------------------+----------------+
+|      P19      |                  place of birth                  |     20.56      |
+|      P20      |                  place of death                  |     22.85      |
+|      P279     |                   subclass of                    |     19.96      |
+|      P37      |                official language                 |     36.19      |
+|      P413     |       position played on team / speciality       |     57.79      |
+|      P449     |                 original network                 |     67.86      |
+|      P138     |                   named after                    |     22.29      |
+|      P364     |       original language of film or TV show       |     35.53      |
+|      P101     |                  field of work                   |     40.29      |
+|      P106     |                    occupation                    |     63.98      |
+|      P176     |                   manufacturer                   |     42.38      |
+|      P27      |              country of citizenship              |     45.95      |
+|      P407     |             language of work or name             |      25.7      |
+|      P30      |                    continent                     |      11.0      |
+|      P178     |                    developer                     |     45.09      |
+|     P1376     |                    capital of                    |     30.66      |
+|      P131     | located in the administrative territorial entity |     22.55      |
+|     P1412     |       languages spoken, written or signed        |     45.89      |
+|      P136     |                      genre                       |      52.8      |
+|      P17      |                     country                      |     23.18      |
+|      P264     |                   record label                   |     30.77      |
+|      P276     |                     location                     |     24.28      |
+|      P937     |                  work location                   |     26.93      |
+|      P140     |                     religion                     |     35.61      |
+|      P127     |                     owned by                     |     20.98      |
+|      P103     |                 native language                  |      56.6      |
+|      P31      |                   instance of                    |     12.19      |
+|      P495     |                country of origin                 |     17.49      |
+|      P159     |              headquarters location               |     31.89      |
+|      P36      |                     capital                      |     33.76      |
+|      P740     |              location of formation               |     12.79      |
+|      P361     |                     part of                      |     22.06      |
+|      mean     |                       mean                       |     33.06      |
+|  up_quantile  |                   up_quantile                    |     22.23      |
+|     median    |                      median                      |     30.71      |
+| down_quantile |                  down_quantile                   |     43.06      |
+|      std      |                       std                        |     14.94      |
++---------------+--------------------------------------------------+----------------+

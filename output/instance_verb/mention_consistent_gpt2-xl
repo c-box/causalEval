@@ -1,0 +1,43 @@
++-----------------------------------------------------------------------------------+
+|                                      gpt2-xl                                      |
++---------------+--------------------------------------------------+----------------+
+|       id      |                     relation                     | mention_consis |
++---------------+--------------------------------------------------+----------------+
+|      P19      |                  place of birth                  |     38.33      |
+|      P20      |                  place of death                  |     29.41      |
+|      P279     |                   subclass of                    |     16.58      |
+|      P37      |                official language                 |      36.6      |
+|      P413     |       position played on team / speciality       |     95.16      |
+|      P449     |                 original network                 |      37.5      |
+|      P138     |                   named after                    |     20.57      |
+|      P364     |       original language of film or TV show       |     25.64      |
+|      P101     |                  field of work                   |     30.43      |
+|      P106     |                    occupation                    |     99.23      |
+|      P176     |                   manufacturer                   |     42.07      |
+|      P27      |              country of citizenship              |     66.37      |
+|      P407     |             language of work or name             |     30.28      |
+|      P30      |                    continent                     |      11.0      |
+|      P178     |                    developer                     |     40.46      |
+|     P1376     |                    capital of                    |     29.93      |
+|      P131     | located in the administrative territorial entity |     22.55      |
+|     P1412     |       languages spoken, written or signed        |     48.63      |
+|      P136     |                      genre                       |     35.51      |
+|      P17      |                     country                      |     19.38      |
+|      P264     |                   record label                   |     19.23      |
+|      P276     |                     location                     |     21.68      |
+|      P937     |                  work location                   |     30.91      |
+|      P140     |                     religion                     |     49.64      |
+|      P127     |                     owned by                     |     24.71      |
+|      P103     |                 native language                  |     49.75      |
+|      P31      |                   instance of                    |     20.62      |
+|      P495     |                country of origin                 |     31.56      |
+|      P159     |              headquarters location               |     30.87      |
+|      P36      |                     capital                      |     33.51      |
+|      P740     |              location of formation               |     36.53      |
+|      P361     |                     part of                      |     20.14      |
+|      mean     |                       mean                       |     35.77      |
+|  up_quantile  |                   up_quantile                    |     22.33      |
+|     median    |                      median                      |     30.89      |
+| down_quantile |                  down_quantile                   |     38.86      |
+|      std      |                       std                        |     19.48      |
++---------------+--------------------------------------------------+----------------+

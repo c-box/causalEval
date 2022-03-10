@@ -1,0 +1,41 @@
++---------------+--------------------------------------------------+-------+
+|       id      |                     relation                     |   p   |
++---------------+--------------------------------------------------+-------+
+|      P19      |                  place of birth                  | 23.59 |
+|      P20      |                  place of death                  | 37.82 |
+|      P279     |                   subclass of                    | 31.01 |
+|      P37      |                official language                 | 63.33 |
+|      P413     |       position played on team / speciality       | 47.37 |
+|      P449     |                 original network                 | 36.39 |
+|      P138     |                   named after                    | 53.85 |
+|      P364     |       original language of film or TV show       | 53.44 |
+|      P101     |                  field of work                   |  7.5  |
+|      P106     |                    occupation                    |  0.12 |
+|      P176     |                   manufacturer                   | 90.49 |
+|      P27      |              country of citizenship              |  26.2 |
+|      P407     |             language of work or name             | 73.05 |
+|      P30      |                    continent                     | 53.91 |
+|      P178     |                    developer                     | 72.45 |
+|     P1376     |                    capital of                    | 84.44 |
+|      P131     | located in the administrative territorial entity | 34.32 |
+|     P1412     |       languages spoken, written or signed        | 75.87 |
+|      P136     |                      genre                       |  1.4  |
+|      P17      |                     country                      | 34.76 |
+|      P264     |                   record label                   |  0.0  |
+|      P276     |                     location                     |  39.3 |
+|      P937     |                  work location                   | 32.83 |
+|      P140     |                     religion                     | 53.92 |
+|      P127     |                     owned by                     | 52.02 |
+|      P103     |                 native language                  | 80.96 |
+|      P31      |                   instance of                    | 38.89 |
+|      P495     |                country of origin                 | 24.53 |
+|      P159     |              headquarters location               | 38.95 |
+|      P36      |                     capital                      | 63.48 |
+|      P740     |              location of formation               |  4.03 |
+|      P361     |                     part of                      | 30.03 |
+|      mean     |                       mean                       | 42.51 |
+|  up_quantile  |                   up_quantile                    | 29.07 |
+|     median    |                      median                      | 38.92 |
+| down_quantile |                  down_quantile                   | 56.27 |
+|      std      |                       std                        |  24.7 |
++---------------+--------------------------------------------------+-------+
