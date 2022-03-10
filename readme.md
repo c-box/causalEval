@@ -39,7 +39,11 @@ bash run_instance_verb.sh
 The results are saved in the folder "output/instance_verb".
 
 #### 3.3 Sample Disparity Bias (Table 3)
-
+Prepare the pretrain corpus:
+```bash
+to be added
+```
+Pretrain and evaluate:
 ```bash
 bash run_sample_disparity.sh
 ```
