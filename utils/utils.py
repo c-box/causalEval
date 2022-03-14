@@ -33,7 +33,7 @@ MODEL_PATH = {
 
     'bart-large': 'facebook/bart-large',
     # 'bart-base': '/home/caoboxi/saved_models/bart-base',
-    'bart-large': 'facebook/bart-base',
+    'bart-base': 'facebook/bart-base',
 }
 
 
