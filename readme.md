@@ -44,7 +44,9 @@ The results are saved in the folder "output/instance_verb".
 #### 3.3 Sample Disparity Bias (Table 3)
 Prepare the pretrain corpus:
 ```bash
-to be added
+gdown https://drive.google.com/uc?id=1N47E2UQ5JYzJQaaeVDP7hUErDuKoejGp
+unzip pretrain_data.zip
+rm pretrain_data.zip
 ```
 Pretrain and evaluate:
 ```bash
@@ -52,7 +54,7 @@ bash run_sample_disparity.sh
 ```
 The script will first further pretrain four PLMs on datasets with various $\gamma$, and save the models in the folder "checkpoints".
 
-And then evaluate all the checkpoints on test dataset, the results are saved in the folder "output/sample_disparity".
+Then evaluate all the checkpoints on test dataset, the results are saved in the folder "output/sample_disparity".
 
 **Further Pretraining Details**
 
