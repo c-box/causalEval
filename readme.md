@@ -19,7 +19,7 @@ pip install -r requirements.txt
 ### Download the data
 ```bash
 pip install gdown
-gdown https://drive.google.com/uc?id=1NmsEo-GGFMDvQ3s-C6L5lzpSneRAVSQv
+gdown https://drive.google.com/uc?id=1ncag639r6zow9OXNn463bd2OrJ7HuJzv
 unzip fact_data.zip
 rm fact_data.zip
 ```

@@ -113,8 +113,13 @@ def load_file(filename):
 
 def store_file(filename, data):
     with open(filename, "w") as f:
-        for line in data:
-            f.write(json.dumps(line) + "\n")
+        n = len(data)
+        for i in range(n):
+            line  = data[i]
+            if i != n-1:
+                f.write(json.dumps(line) + "\n")
+            else:
+                f.write(json.dumps(line))
     f.close()
 
 
