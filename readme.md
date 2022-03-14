@@ -18,7 +18,10 @@ pip install -r requirements.txt
 
 ### Download the data
 ```bash
-to be added
+pip install gdown
+gdown https://drive.google.com/uc?id=1NmsEo-GGFMDvQ3s-C6L5lzpSneRAVSQv
+unzip fact_data.zip
+rm fact_data.zip
 ```
 ### Run the experiments
 
