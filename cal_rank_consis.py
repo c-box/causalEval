@@ -55,15 +55,10 @@ def get_model_prompt_mention(model_names):
     return model_prompt_mention
 
 
-# 使用一样的采样
 def final_rank_consis(args):
-    # 随机的次数
     sample_times = args.sample_times
-    # 每次随机的
     sample_num = args.sample_num
-    fout = open("output/causal_intervention/final_rank_consis_{}_{}_{}".format(
-        sample_times, sample_num, args.seed
-    ), "w")
+    fout = open("output/causal_intervention/final_rank_consis", "w")
     model_names = [
         "bert-base-cased",
         "bert-large-cased",

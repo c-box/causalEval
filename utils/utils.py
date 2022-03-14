@@ -24,7 +24,7 @@ MODEL_PATH = {
     # 'bert-large-cased-wwm': '/home/caoboxi/saved_models/bert-large-cased-whole-word-masking',
 
     # 'gpt2': '/home/caoboxi/saved_models/gpt2',
-    # "gpt2-medium": "/home/caoboxi/saved_models/gpt2-medium",
+    # "gpt2-medium": "/shared_home/caoboxi/models/saved_models/gpt2-medium",
     # 'gpt2-large': '/home/caoboxi/saved_models/gpt2-large',
     # 'gpt2-xl': '/home/caoboxi/saved_models/gpt2-xl',
 
@@ -32,7 +32,8 @@ MODEL_PATH = {
     # 'roberta-large': '/home/caoboxi/saved_models/roberta-large',
 
     'bart-large': 'facebook/bart-large',
-    # 'bart-base': '/home/caoboxi/saved_models/bart-base'
+    # 'bart-base': '/home/caoboxi/saved_models/bart-base',
+    'bart-large': 'facebook/bart-base',
 }
 
 
@@ -492,7 +493,11 @@ def read_prompts(relation_id, ori_prompt=None):
     else:
         relation_prompts = []
     if os.path.isfile(file_path):
-        prompts = load_file(file_path)
+        try:
+            prompts = load_file(file_path)
+        except:
+            print(file_path)
+            raise RuntimeError("wrong file path")
         for prompt in prompts:
             prompt = prompt["pattern"]
             if prompt not in relation_prompts:
