@@ -58,7 +58,7 @@ Then evaluate all the checkpoints on test dataset, the results are saved in the 
 
 **Further Pretraining Details**
 
-Training was performed on $8$ 40G-A100 GPUs for $3$ epochs, with maximum sequence length $512$. The batch sizes for BERT-base, BERT-large, GPT2-base, GPT2-medium are $256, 96, 128, 64$ respectively. All the models is optimized with Adam using the following parameters: $\beta_1=0.9, \beta_2=0.999, \epsilon=1e-8$ and the learning  rate is $5e-5$ with warmup ratio=$0.06$. 
+Training was performed on 8 40G-A100 GPUs for 3 epochs, with maximum sequence length 512. The batch sizes for BERT-base, BERT-large, GPT2-base, GPT2-medium are 256, 96, 128, 64 respectively. All the models is optimized with Adam using the following parameters: $\beta_1=0.9, \beta_2=0.999, \epsilon=1e-8$ and the learning  rate is $5e-5$ with warmup ratio=$0.06$. 
 
 #### 3.4 Bias Elimination via Causal Intervention
 
@@ -66,3 +66,6 @@ Training was performed on $8$ 40G-A100 GPUs for $3$ epochs, with maximum sequenc
 bash run_causal_intervention.sh
 ```
 The results are saved in the folder "output/causal_intervention".
+
+## License
+The code is released under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License for Noncommercial use only. Any commercial use should get formal permission first.
