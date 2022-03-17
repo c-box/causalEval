@@ -5,8 +5,7 @@
 DEVICE=$1
 
 if [ $DEVICE = "0" ]; then
-    # export CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7
-    export CUDA_VISIBLE_DEVICES=2,3,4,5,7,8,9
+    export CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7
 else
     export CUDA_VISIBLE_DEVICES=$1
 fi
