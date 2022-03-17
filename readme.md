@@ -32,6 +32,7 @@ bash run_prompt_variance.sh
 ```
 
 The results are saved in the folder "output/prompt_preference".
+The relations in Figure 3 and 4 are: P1412，P30，P140，P127.
 
 #### 3.2 Instance Verbalization Bias (Figure 5)
 
