@@ -4,7 +4,23 @@ This is the source code for paper: Can Prompt Probe Pretrained Language Models? 
 ## Reference
 If this repository helps you, please kindly cite the following bibtext:
 ```
-to be added
+@misc{https://doi.org/10.48550/arxiv.2203.12258,
+  doi = {10.48550/ARXIV.2203.12258},
+  
+  url = {https://arxiv.org/abs/2203.12258},
+  
+  author = {Cao, Boxi and Lin, Hongyu and Han, Xianpei and Liu, Fangchao and Sun, Le},
+  
+  keywords = {Computation and Language (cs.CL), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  
+  title = {Can Prompt Probe Pretrained Language Models? Understanding the Invisible Risks from a Causal View},
+  
+  publisher = {arXiv},
+  
+  year = {2022},
+  
+  copyright = {Creative Commons Attribution 4.0 International}
+}
 ```
 
 ## Usage
