@@ -4,22 +4,21 @@ This is the source code for paper: Can Prompt Probe Pretrained Language Models? 
 ## Reference
 If this repository helps you, please kindly cite the following bibtext:
 ```
-@misc{https://doi.org/10.48550/arxiv.2203.12258,
-  doi = {10.48550/ARXIV.2203.12258},
-  
-  url = {https://arxiv.org/abs/2203.12258},
-  
-  author = {Cao, Boxi and Lin, Hongyu and Han, Xianpei and Liu, Fangchao and Sun, Le},
-  
-  keywords = {Computation and Language (cs.CL), FOS: Computer and information sciences, FOS: Computer and information sciences},
-  
-  title = {Can Prompt Probe Pretrained Language Models? Understanding the Invisible Risks from a Causal View},
-  
-  publisher = {arXiv},
-  
-  year = {2022},
-  
-  copyright = {Creative Commons Attribution 4.0 International}
+@inproceedings{cao-etal-2022-prompt,
+    title = "Can Prompt Probe Pretrained Language Models? Understanding the Invisible Risks from a Causal View",
+    author = "Cao, Boxi  and
+      Lin, Hongyu  and
+      Han, Xianpei  and
+      Liu, Fangchao  and
+      Sun, Le",
+    booktitle = "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = may,
+    year = "2022",
+    address = "Dublin, Ireland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.acl-long.398",
+    pages = "5796--5808",
+    abstract = "Prompt-based probing has been widely used in evaluating the abilities of pretrained language models (PLMs). Unfortunately, recent studies have discovered such an evaluation may be inaccurate, inconsistent and unreliable. Furthermore, the lack of understanding its inner workings, combined with its wide applicability, has the potential to lead to unforeseen risks for evaluating and applying PLMs in real-world applications. To discover, understand and quantify the risks, this paper investigates the prompt-based probing from a causal view, highlights three critical biases which could induce biased results and conclusions, and proposes to conduct debiasing via causal intervention. This paper provides valuable insights for the design of unbiased datasets, better probing frameworks and more reliable evaluations of pretrained language models. Furthermore, our conclusions also echo that we need to rethink the criteria for identifying better pretrained language models.",
 }
 ```
 
